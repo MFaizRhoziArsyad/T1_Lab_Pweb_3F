@@ -2,3 +2,14 @@
 body {
   background-color: #95d1cc;
 }
+
+/* Latihan 3.3 = Merias Horizontal Rule */
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 15px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 30%;
+  border-color: black;
+}
