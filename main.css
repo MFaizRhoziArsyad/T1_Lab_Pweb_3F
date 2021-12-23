@@ -13,3 +13,9 @@ hr {
   width: 30%;
   border-color: black;
 }
+
+/* Latihan 3.4 = Menggunakan Groupping Selector */
+h1,
+h2 {
+  text-align: center;
+}
