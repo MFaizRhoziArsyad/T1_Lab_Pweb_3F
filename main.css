@@ -57,3 +57,8 @@ nav a {
 .navbar li:last-child {
   float: right;
 }
+
+/* Latihan 3.8 = Menggunakan Pseudo Class Hover */
+nav li:hover {
+  background-color: red;
+}
