@@ -62,3 +62,9 @@ nav a {
 nav li:hover {
   background-color: red;
 }
+
+/* Latihan 8.9 = Unvirsel Selector */
+* {
+  margin: 0px;
+  padding: 0px;
+}
