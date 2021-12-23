@@ -31,3 +31,24 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
+
+/* Latihan 3.6 = Menambahkan Navigator Bar */
+nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
