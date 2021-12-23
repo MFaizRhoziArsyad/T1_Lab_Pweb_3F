@@ -19,3 +19,15 @@ h1,
 h2 {
   text-align: center;
 }
+
+/*  Latihan 3.5 = Menggunakan max-witdh dan margin-auto */
+ol,
+ul,
+image,
+p {
+  display: block;
+  max-width: 500px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
