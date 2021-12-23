@@ -52,3 +52,8 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/* Latihan 3.7 = Menggunakan Pseudo Class Last_Child dan Float */
+.navbar li:last-child {
+  float: right;
+}
