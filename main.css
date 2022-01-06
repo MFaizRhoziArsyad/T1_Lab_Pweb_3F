@@ -112,3 +112,14 @@ nav {
   bottom: 0px;
   width: 100%;
 }
+/* Latihan 4.3 = Form Register */
+div.form-register {
+  margin-bottom: 100px;
+}
+div.content-form {
+  max-width: 70%;
+  margin: auto;
+}
+div.content-form h1 {
+  margin-bottom: 40px;
+}
