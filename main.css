@@ -123,3 +123,11 @@ div.content-form {
 div.content-form h1 {
   margin-bottom: 40px;
 }
+/* Latihan 4.4 = Menambahkan Form Login berada pada tengah layar menggunakan Flexbox */
+div.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-bottom: 100px;
+}
