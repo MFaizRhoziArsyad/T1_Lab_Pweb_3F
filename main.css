@@ -36,7 +36,7 @@ p {
 
 /* Latihan 3.6 = Menambahkan Navigator Bar */
 nav ul {
-  list-style-type: none;
+  list-style-type: ;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
@@ -182,4 +182,29 @@ input [type="button"],
   padding: 16px 32px;
   text-decoration: none;
   margin: 4px 2px;
+}
+/* Latihan 4.9 = Membuat artikel dengan menggunakan grid */
+.grid-container {
+  display: grid;
+  grid-template-areas: "side artikel 1 artikel 2 artikel 3 artikel 4";
+  margin-bottom: 100px;
+}
+.articles-title {
+  margin: 20px 20px;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 200px;
+}
+.articles-content p {
+  font-size: 50px;
+  font-weight: bold;
 }
