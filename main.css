@@ -105,3 +105,10 @@ nav {
   position: sticky;
   top: 0;
 }
+/* Latihan 4.2 = Fixed Footer */
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
