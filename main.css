@@ -16,7 +16,9 @@ hr {
 
 /* Latihan 3.4 = Menggunakan Groupping Selector */
 h1,
-h2 {
+h2,
+h3,
+h4 {
   text-align: center;
 }
 
@@ -33,7 +35,7 @@ p {
 }
 
 /* Latihan 3.6 = Menambahkan Navigator Bar */
-nav {
+nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -43,6 +45,7 @@ nav {
 
 nav li {
   float: left;
+  margin-left: 20px;
 }
 
 nav a {
@@ -95,4 +98,10 @@ tr:hover {
   padding: 10px;
   text-align: center;
   margin-top: 15px;
+}
+
+/* Latihan 4.1 = Sticky Navbar */
+nav {
+  position: sticky;
+  top: 0;
 }
