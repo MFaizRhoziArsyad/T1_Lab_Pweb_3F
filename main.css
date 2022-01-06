@@ -131,3 +131,10 @@ div.form-login {
   height: 90vh;
   margin-bottom: 100px;
 }
+/* Latihan 4.5 = Form Contact Berada Di Tengah Layar Menggunakan Grid */
+div.form-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
