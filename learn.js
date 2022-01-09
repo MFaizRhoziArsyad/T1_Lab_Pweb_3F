@@ -43,4 +43,15 @@ console.log('a != b =', a != b)
 console.log('a === b =', a === b)
 console.log('a !== b =', a !== b)
 
-// Latihan 5.4 = Melakukan operasi sederhana dengan operator
+// Latihan 5.4 = Melakukan operasi sederhana dengan operator logika
+// Membuat 2 variabel beserta isinya dan melakukan operator logika
+console.log('true && true =', true && true)
+console.log('true && false =', true && false)
+console.log('false && true =', false && true)
+console.log('false && false =', false && false)
+console.log('true || true =', true || true)
+console.log('true || false =', true || false)
+console.log('false || true =', false || true)
+console.log('false || false =', false || false)
+console.log('!true =', !true)
+console.log('!false =', !false)
