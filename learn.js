@@ -107,3 +107,25 @@ hewan.sort ();
 //  membalikkan urutan dari array / bagian akhir ke depan / bagian depan ke belakang
 hewan.reverse ();
 
+// Latihan 5.7 = Bermain dengan objek
+
+// Membuat suatu objek dengan property dan satu fungsi
+var mahasiswa = {
+    nama     : "M. Faiz Rhozi Arsyad",
+    npm      : 203510716,
+    jurusan  : "Teknik Informatika",
+    kelas    : "3F",
+    semester : "3",
+};
+// Membuat Dot Notation
+console.log (mahasiswa.nama);     // M. Faiz Rhozi Arsyad
+console.log (mahasiswa.npm);      // 203510716
+console.log (mahasiswa.jurusan);  // Teknik Informatika
+console.log (mahasiswa.kelas);    // 3F
+console.log (mahasiswa.semester); // 3
+// Membuat Bracket Notation
+console.log(mahasiswa["nama"]);   // M. Faiz Rhozi Arsyad
+console.log(mahasiswa["nama"]); // 203510716
+console.log(mahasiswa["jurusan"]);   // Teknik Informatika
+console.log(mahasiswa["jurusan"]);  // 3F
+console.log(mahasiswa["semester"]);  // 3
