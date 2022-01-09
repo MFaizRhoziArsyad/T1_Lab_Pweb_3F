@@ -1,3 +1,4 @@
+// Laithan 5.1 = Membuat variabel dan konstanta dan menampilkan
 // membuat variabel
 let myNumber = 16;
 let myString = "Hello"
@@ -12,3 +13,4 @@ console.log(phi)
 window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
+
