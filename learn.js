@@ -55,3 +55,26 @@ console.log('false || true =', false || true)
 console.log('false || false =', false || false)
 console.log('!true =', !true)
 console.log('!false =', !false)
+
+// Latihan 5.5 = Membuat fungsi
+
+// Fungsi menghitung luas persegi dengan menggunakan 1 parameter
+function luas_persegi(s){
+    luas = s*s;
+    return luas;
+}
+console.log(luas_persegi(8));
+
+// Fungsi menghitung luas segitiga dengan menggunakan 2 parameter
+function luas_segitiga(a,t){
+   luas = 0.5 * a * t;
+    return luas;
+}
+console.log(luas_segitiga(5,10));
+
+// Fungsi menghitung volume balok dengan menggunakan 3 parameter
+function volume_balok (p,l,t){
+    luas = p * l * t;
+    return luas;
+}
+console.log(volume_balok(12,4,2));
