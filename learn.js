@@ -78,3 +78,32 @@ function volume_balok (p,l,t){
     return luas;
 }
 console.log(volume_balok(12,4,2));
+
+// Latihan 5.6 = Bermain dengan Array
+
+// Membuat Array dengan mengisi nama-nama hewan
+var hewan = ["Kucing" , "Anjing" , "Monyet" , "Burung"]; 
+console.log (hewan[0]);
+alert ("nama hewan index 0 adalah ="+hewan[0]);
+console.log (hewan[1]);
+alert ("nama hewan index 1 adalah ="+hewan[1]);
+console.log (hewan[2]);
+alert ("nama hewan index 2 adalah ="+hewan[2]);
+console.log (hewan[3]);
+alert ("nama hewan index 3 adalah ="+hewan[3]);
+
+// Menambahkan item baru ke bagian paling akhir suatu array
+hewan.push("Panda");
+//  menghapus item terakhir dari sebuah array
+hewan.pop();
+// menghitung ukuran array
+hewan.length
+// menambahkan item di awal array
+hewan.unshift ("Beruang" , "Lumba-lumba")
+// menampilkan item pertama pada array
+hewan.shift ();
+// mengurutkan array
+hewan.sort ();
+//  membalikkan urutan dari array / bagian akhir ke depan / bagian depan ke belakang
+hewan.reverse ();
+
