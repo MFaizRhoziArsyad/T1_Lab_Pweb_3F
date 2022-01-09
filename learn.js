@@ -14,7 +14,7 @@ window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
 
-// Latihan 5.2 = Melakukan operasi sederhana dengan aritmatika
+// Latihan 5.2 = Melakukan operasi sederhana dengan operator aritmatika
 // Membuat 2 variabel beserta isinya dan melakukan operator aritmatika
 let x = 20
 let y = 4
@@ -29,7 +29,7 @@ console.log('++x =', ++x)
 console.log('x-- =', x--)
 console.log('--x =', --x)
 
-// Latihan 5.3 = Melakukan operasi sederhana dengan perbandingan
+// Latihan 5.3 = Melakukan operasi sederhana dengan operator perbandingan
 // Membuat 2 variabel beserta isinya dan melakukan operator perbandingan
 let a = 12
 let b = 4
@@ -42,3 +42,5 @@ console.log('a == b =', a == b)
 console.log('a != b =', a != b)
 console.log('a === b =', a === b)
 console.log('a !== b =', a !== b)
+
+// Latihan 5.4 = Melakukan operasi sederhana dengan operator
