@@ -129,3 +129,16 @@ console.log(mahasiswa["nama"]); // 203510716
 console.log(mahasiswa["jurusan"]);   // Teknik Informatika
 console.log(mahasiswa["jurusan"]);  // 3F
 console.log(mahasiswa["semester"]);  // 3
+
+// Latihan 5.8 = anomali pada javascript
+
+// pada learn.js tampilkan ke console expresi berikut :
+
+console.log(0.1 + 0.2 == 0.3) //operasi bernilai false
+console.log(1 + "1") //operasi bernilai 11
+console.log(1 - "1") //operasi bernilai 0
+console.log(1 < 2 < 3) //operasi bernilai true
+console.log(3 > 2 > 1) //operasi bernilai false
+console.log(null == 0) //operasi bernilai false
+console.log(null > 0) //operasi bernilai false
+console.log(null >= 0) //operasi bernilai true
