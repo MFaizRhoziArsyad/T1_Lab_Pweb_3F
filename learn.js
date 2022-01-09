@@ -14,3 +14,31 @@ window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`)
 
+// Latihan 5.2 = Melakukan operasi sederhana dengan aritmatika
+// Membuat 2 variabel beserta isinya dan melakukan operator aritmatika
+let x = 20
+let y = 4
+console.log(x, y)
+console.log('x + y =', x + y)
+console.log('x - y =', x - y)
+console.log('x * y =', x * y)
+console.log('x / y =', x / y)
+console.log('x % y =', x % y)
+console.log('x++ =', x++)
+console.log('++x =', ++x)
+console.log('x-- =', x--)
+console.log('--x =', --x)
+
+// Latihan 5.3 = Melakukan operasi sederhana dengan perbandingan
+// Membuat 2 variabel beserta isinya dan melakukan operator perbandingan
+let a = 12
+let b = 4
+console.log(a, b)
+console.log('a > b =', a > b)
+console.log('a < b =', a < b)
+console.log('a >= b =', a >= b)
+console.log('a <= b =', a <= b)
+console.log('a == b =', a == b)
+console.log('a != b =', a != b)
+console.log('a === b =', a === b)
+console.log('a !== b =', a !== b)
