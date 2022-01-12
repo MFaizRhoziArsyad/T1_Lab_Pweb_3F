@@ -85,16 +85,27 @@ for(let y of hewan){
 
 <!-- Tugas tentang WHILE  LOOP &  DO WHILE  LOOP -->
 <script>
-    // WHILE LOOP
-    var ulangi = confirm("Apakah Anda mau mengulang?");
-    var counter = 0;
+//     // WHILE LOOP
+//     var ulangi = confirm("Apakah Anda mau mengulang?");
+//     var counter = 0;
 
-while(ulangi){
-    counter++;
-    ulangi = confirm("Apakah Anda mau mengulang?");
-}
+// while(ulangi){
+//     counter++;
+//     ulangi = confirm("Apakah Anda mau mengulang?");
+// }
 
-    document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");   
+//     document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");   
+
+// // DO WHILE LOOP
+var jumlah = prompt("Mau diulang berapa kali?");
+var hitung = 1;
+
+do {
+    document.write("<p>Ini perulangan ke- "+ hitung + "</p>");
+    hitung++;
+} while(hitung <=jumlah);
+
 </script>
+
 </body>
 </html>
