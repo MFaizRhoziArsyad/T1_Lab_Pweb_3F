@@ -97,14 +97,24 @@ for(let y of hewan){
 //     document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");   
 
 // // DO WHILE LOOP
-var jumlah = prompt("Mau diulang berapa kali?");
-var hitung = 1;
+// var jumlah = prompt("Mau diulang berapa kali?");
+// var hitung = 1;
 
-do {
-    document.write("<p>Ini perulangan ke- "+ hitung + "</p>");
-    hitung++;
-} while(hitung <=jumlah);
+// do {
+//     document.write("<p>Ini perulangan ke- "+ hitung + "</p>");
+//     hitung++;
+// } while(hitung <=jumlah);
 
+
+// TRY CATCH
+try {
+    // var hewan = "capung";
+    document.write( hewan);
+} catch (error) {
+    alert (error);
+}finally {
+    document.write ("<p>Pesan ini pasti ditampilkan </p>")
+}
 </script>
 
 </body>
