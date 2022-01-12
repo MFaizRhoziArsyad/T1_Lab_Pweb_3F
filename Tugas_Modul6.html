@@ -6,7 +6,7 @@
 <body>
 
 <!-- Tugas tentang percabangan IF/ELSE -->
-    <h1>IF/ELSE</h1>
+    <!-- <h1>IF/ELSE</h1>
     <script>
         var password = prompt("Silahkan masukkan password:");
 
@@ -17,7 +17,41 @@
             document.write("<p>Password salah, coba lagi!</p>");
         }
         document.write("<p>Terima kasih sudah mampir di blog saya!</p>");
+    </script> -->
 
-    </script>
+<!-- Tugas tentang SWITCH/CASE -->
+<h2>SWITCH/CASE</h2>
+<script>
+
+    var jawab = prompt("Kamu beruntung! Silahkan pilih hadiahmu dengan memasukan angka 1 sampai 5");
+    var hadiah = " ";
+    
+    switch(jawab){
+        case "1":
+            hadiah = "Pulsa 15.000";
+            break;
+        case "2":
+            hadiah = "1 kardus mie instan";
+            break;
+        case "3":
+            hadiah = "Sticker ";
+            break;
+        case "4":
+            hadiah = "Minyak Goreng";
+            break;
+        case "5":
+            hadiah = "Uang Rp 50.000";
+            break;
+        default:
+            document.write("<p>Opps! anda salah pilih</p>");
+    }
+
+    if(hadiah === ""){
+        document.write("<p>Kamu gagal mendapat hadiah</p>");
+    } else {
+        document.write("<h2>Selamat kamu mendapatkan " + hadiah + "</h2>");
+    }
+</script>
+
 </body>
 </html>
